@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeeksForLess-TestTask", "GeeksForLess-TestTask\GeeksForLess-TestTask.csproj", "{C4FD79CD-2286-47F7-8DB3-3BC79E6372C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4FD79CD-2286-47F7-8DB3-3BC79E6372C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FD79CD-2286-47F7-8DB3-3BC79E6372C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FD79CD-2286-47F7-8DB3-3BC79E6372C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FD79CD-2286-47F7-8DB3-3BC79E6372C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF31481D-D99E-4E4D-80E9-688B454DB770}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿@model List<Catalog>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; min-height: 450px; flex-direction: column;">
+    <div>
+        <strong>
+            @ViewBag.Name
+        </strong>
+    </div>
+    <div style="margin-top: 75px; display: flex; gap: 45px;">
+        @foreach (var a in @Model)
+        {
+            <a style="color: black;" class="navbar-brand" asp-controller="Home" asp-action="Catalog" asp-route-path=@a.Path asp-route-name=@a.Name>@a.Name</a>
+        }
+    </div>
+</div>
